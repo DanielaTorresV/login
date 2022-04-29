@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <title>Formulario Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container">
+        <form class="form">
+            <header class="form__header">
+                <h1 class="form__name">Hola Pedro!</h1>
+                <p class="form__description"> <strong>Bienvenid@ nuevamente</strong></p>
+            </header>
+                <div class="form__body">
+                    <div class="input__container">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+                        </svg>
+                        <input type="email" name="email" class="form__input form__input--email" placeholder="Email">
+                    </div>
+                    <div class="input__container">                                                  
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd" />
+                        </svg>                          
+                        <input type="password" name="password" class="form__input form__input--password" placeholder="Password">
+                    </div>
+                </div>
+            <footer class="form__footer">
+                <button class="form__button">Login</button>
+                <a href="javascript:;" class="form__link">Olvidaste la contraseña?</a>
+            </footer>
+        </form>
+    </main>
+</body>
+
+</html>
